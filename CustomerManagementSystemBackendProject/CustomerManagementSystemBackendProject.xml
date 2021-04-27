@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerManagementSystemBackendProject</name>
+    </assembly>
+    <members>
+        <member name="M:CustomerManagementSystemBackendProject.Controllers.GroupController.Index">
+             <summary>
+             Authorize a user.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST / Authorize a user
+                 {
+                
+                    "Username": "Employee",
+                    "Password": "Password!1"
+                 }
+            
+             </remarks>
+             <param name="model"></param>
+             <returns>A token</returns>
+             <response code="200">Returns the token</response>
+             <response code="401">Wrong username or password</response>
+             <response code="400">Model is null</response>
+        </member>
+        <member name="M:CustomerManagementSystemBackendProject.Controllers.GroupController.Details(System.Int32)">
+             <summary>
+             Authorize a user.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST / Authorize a user
+                 {
+                
+                    "Username": "Employee",
+                    "Password": "Password!1"
+                 }
+            
+             </remarks>
+             <param name="model"></param>
+             <returns>A token</returns>
+             <response code="200">Returns the token</response>
+             <response code="401">Wrong username or password</response>
+             <response code="400">Model is null</response>
+        </member>
+        <member name="M:CustomerManagementSystemBackendProject.Controllers.GroupController.Create(CustomerManagementSystemBackendProject.Models.GroupModels.GroupCreateModel)">
+             <summary>
+             Authorize a user.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST / Authorize a user
+                 {
+                
+                    "Username": "Employee",
+                    "Password": "Password!1"
+                 }
+            
+             </remarks>
+             <param name="model"></param>
+             <returns>A token</returns>
+             <response code="200">Returns the token</response>
+             <response code="401">Wrong username or password</response>
+             <response code="400">Model is null</response>
+        </member>
+        <member name="M:CustomerManagementSystemBackendProject.Controllers.GroupController.Update(CustomerManagementSystemBackendProject.Models.GroupModels.GroupUpdateModel)">
+             <summary>
+             Authorize a user.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST / Authorize a user
+                 {
+                
+                    "Username": "Employee",
+                    "Password": "Password!1"
+                 }
+            
+             </remarks>
+             <param name="model"></param>
+             <returns>A token</returns>
+             <response code="200">Returns the token</response>
+             <response code="401">Wrong username or password</response>
+             <response code="400">Model is null</response>
+        </member>
+        <member name="M:CustomerManagementSystemBackendProject.Controllers.GroupController.Delete(System.Int32)">
+             <summary>
+             Authorize a user.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST / Authorize a user
+                 {
+                
+                    "Username": "Employee",
+                    "Password": "Password!1"
+                 }
+            
+             </remarks>
+             <param name="model"></param>
+             <returns>A token</returns>
+             <response code="200">Returns the token</response>
+             <response code="401">Wrong username or password</response>
+             <response code="400">Model is null</response>
+        </member>
+    </members>
+</doc>
